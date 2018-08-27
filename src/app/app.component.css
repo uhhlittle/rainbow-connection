@@ -1,0 +1,17 @@
+h1 {
+  font-family: 'Libre Baskerville', serif;
+  color: white;
+  margin-left: 8%;
+}
+
+.main-title {
+  display: flex;
+  width: 15%;
+  height: 300px;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  flex-grow: 1;
+  background-color: red;
+  border-radius: 50%;
+}
