@@ -1,15 +1,27 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-color-menu',
+  selector: 'color-menu',
   templateUrl: './color-menu.component.html',
   styleUrls: ['./color-menu.component.css']
 })
 export class ColorMenuComponent implements OnInit {
-
-  constructor() { }
+  colors = [
+    'red',
+    'pink',
+    'blue',
+    'cyan',
+    'lime',
+    'green',
+    'yellow',
+    'tangerine',
+    'orange',
+  ];
+  constructor() {
+  }
 
   ngOnInit() {
+
   }
 
 }

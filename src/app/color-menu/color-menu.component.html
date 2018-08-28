@@ -1,3 +1,15 @@
-<p>
-  color-menu works!
-</p>
+<div class="color-menu">
+  <div class="spectrum-image-container">
+    <img src="https://i.stack.imgur.com/DhLkp.jpg" />
+  </div>
+  <div class="spectrum-color-container">
+    <ul>
+      <li
+        *ngFor="let color of colors"
+        title="{{color}}"
+        ng-mouseenter="fetchGif(color)"
+      ></li>
+    </ul>
+  </div>
+</div>
+
