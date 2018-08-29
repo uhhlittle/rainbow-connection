@@ -20,6 +20,12 @@ h1 {
   box-shadow: 5px 10px rgb(147, 60, 187);
 }
 
-color-menu {
-  height: 30%;
+.main-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+color-tv {
+  flex-grow: 1;
 }

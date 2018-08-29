@@ -1,0 +1,35 @@
+.tv-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 5px 10px rgb(147, 60, 187);
+
+}
+
+.screen {
+  height: 350px;
+  width: 70%;
+  background-color: rgb(47, 186, 204);
+  margin: 15px;
+  border-radius: 15px;
+}
+
+.history {
+  width: 30%;
+  border-left: 1px solid rgb(19, 91, 124);
+}
+
+.channel {
+  height: 30px;
+  width: 40%;;
+  border: 1px solid rgb(19, 91, 124);
+  background-color: #fff;
+  margin: 2px;
+  border-radius: 10px;
+  box-shadow: 5px 10px rgb(147, 60, 187);
+
+}
+
