@@ -14,7 +14,6 @@ h1 {
   flex-direction: column;
   align-content: center;
   justify-content: center;
-  flex-grow: 1;
   background-color: rgb(255, 99, 71);
   border-radius: 50%;
   box-shadow: 5px 10px rgb(147, 60, 187);
@@ -23,9 +22,16 @@ h1 {
 .main-body {
   width: 100%;
   display: flex;
+  flex-grow: 1;
   flex-direction: column;
 }
 
-color-tv {
+app-color-tv {
+  flex-grow: 1;
+  height: 50%;
+}
+
+color-menu {
+  height: 50%;
   flex-grow: 1;
 }

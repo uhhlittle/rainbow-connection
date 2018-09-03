@@ -1,7 +1,5 @@
 .tv-container {
   display: flex;
-  height: 100%;
-  width: 100%;
   margin: 20px;
   background-color: #fff;
   border-radius: 15px;
@@ -10,7 +8,6 @@
 }
 
 .screen {
-  height: 350px;
   width: 70%;
   background-color: rgb(47, 186, 204);
   margin: 15px;
